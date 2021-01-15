@@ -30,6 +30,8 @@
         <nav>
           I also have a <a href="https://www.luluzhu.com/">Design Portfolio</a> in the works.
         </nav>
+        <iframe src="https://www.luluzhu.com/" title="Portfolio"></iframe>
+
       </aside>
       
       <p><code>Some libraries I've dabbled in are: </code></p>
@@ -58,11 +60,41 @@
         <h3>Some resolutions for 2021:</h3>
         <p>Rediscover old hobbies like reading<br> Get more into fashion<br> Develop career more</p>
         
+        <audio controls>
+          <source src="horse.ogg" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio tag.
+        </audio>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GSmzXzegIrA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <video width="320" height="240" controls>
+          <source src="movie.mp4" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+        
+        <canvas id="myCanvas"></canvas>
+        <script>
+          var canvas = document.getElementById("myCanvas");
+          var ctx = canvas.getContext("2d");
+          ctx.fillStyle = "#93c7aa";
+          ctx.fillRect(0, 0, 80, 80);
+        </script>
+        
+        <svg width="100" height="100">
+          <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="white" />
+        </svg>
+        
       </div>
     
     </main>
     
-    <footer></footer>
+    <footer>
+      <picture>
+        <img src="/BB65BBF4-275C-47BE-86E2-5BA13C722A7A_1_105_c.jpeg">
+      </picture>
+    </footer>
   </body>
   
 </html>
