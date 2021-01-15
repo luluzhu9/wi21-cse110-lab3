@@ -91,8 +91,47 @@
     </main>
     
     <footer>
+      
+      <form action="/action_page.php">
+        <label for="fname">What's your name?</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      
+      <form action="/action_page.php">
+        <label for="colors">Choose a color:</label>
+        <select name="colors" id="colors">
+          <optgroup label="Primary">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+          </optgroup>
+          <optgroup label="Secondary">
+            <option value="green">Green</option>
+            <option value="orange">Orange</option>
+          </optgroup>
+        </select>
+      </form>
+      
+       <fieldset>
+        <legend>Tell me about yourself:</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="favcolor">Favorite color:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+       </fieldset>
+      
+        <datalist id="foods">
+          <option value="Waffles">
+          <option value="Eggs">
+          <option value="Pancakes">
+        </datalist>
+      
+      <textarea id="end" name="end" rows="4" cols="50">
+      Thanks for coming to my page!
+      </textarea>
+      
       <picture>
-        <img src="/BB65BBF4-275C-47BE-86E2-5BA13C722A7A_1_105_c.jpeg">
+        <img src="https://github.com/luluzhu9/luluzhu9.github.io/blob/main/BB65BBF4-275C-47BE-86E2-5BA13C722A7A_1_105_c.jpeg">
       </picture>
     </footer>
   </body>
