@@ -9,3 +9,7 @@ p.info {
 * {
 	background-color: #FFFAF0;
 }
+
+p {
+	font-weight: bold;
+}
