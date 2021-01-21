@@ -25,6 +25,7 @@ p:hover {
 span,
 div {
 	border: green 1px solid;
+	border-radius: 25px;
 }
 
 div p {
