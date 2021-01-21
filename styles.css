@@ -15,7 +15,7 @@ p {
 }
 
 a[target="_blank"]{
-	background-color: yellow;
+	background-color: green;
 }
 
 p:hover {
