@@ -13,3 +13,7 @@ p.info {
 p {
 	font-weight: bold;
 }
+
+a[target]{
+	background-color: yellow;
+}
