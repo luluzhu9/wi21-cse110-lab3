@@ -40,6 +40,10 @@ p:hover {
 	text-align: center;
 }
 
+p:active {
+	color: #FFFFFF;
+}
+
 span,
 div {
 	border: green 1px solid;
