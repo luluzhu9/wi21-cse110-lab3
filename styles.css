@@ -65,10 +65,12 @@ div > p {
 div ~ p {
 	background-color: hsl(0, 0%, 100%);
 	padding: 20px 30px 40px 50px;
+	position: relative;
 }
 
 div + p {
 	background-color: hsla(120, 60%, 70%, 0.2);
+	position: static;
 }
 
 .modal.modal-red{
