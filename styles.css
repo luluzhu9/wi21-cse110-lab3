@@ -1,5 +1,11 @@
+@font-face {
+	font-family: myLatoFont;
+	src: url(/Users/luluzhu/Desktop);
+}
+
 p.info {
 	background-color: pink;
+	font-family: myLatoFont;
 }
 
 #foods {
