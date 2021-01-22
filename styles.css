@@ -26,6 +26,8 @@ a[target="_blank"]{
 p:hover {
 	color: #264;
 	font-size: 2em;
+	text-decoration: underline;
+	text-align: center;
 }
 
 span,
