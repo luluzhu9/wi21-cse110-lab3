@@ -9,10 +9,12 @@ p.info {
 }
 
 #foods {
+	display: inline;
 	background-color: yellow;
 }
 
 * {
+	display: inline-block;
 	background-color: #FFFAF0;
 }
 
